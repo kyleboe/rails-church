@@ -1,20 +1,24 @@
-.faith Faith
-%p#notice= notice
-%h1 DHH's Prayer 🙏
-%p Our DHH who art in Spain,
-%p Hallowed be thy name.
-%p Thy framework come.
-%p Thy will be done
-%p on Rails as it is in #{link_to 'Basecamp', 'https://basecamp.com/'}.
-%p Give us this day our daily code,
-%p and forgive us our monkeypatches,
-%p as we forgive those who flame us on twitter,
-%p and lead us not into elixir,
-%p but deliver us from phoenix.
-%p For thine is the model,
-%p and the view, and the controller,
-%p for ever and ever
-%p rails new
+.faith
+  Faith
+  = link_to '#prayer' do
+    %div= fa_icon 'sort-desc'
 .hashtags
   .left-hashtag #OnlyDHHCanJudgeMe
   .right-hashtag #Blest
+.prayer{id: 'prayer'}
+  %h1 DHH's Prayer 🙏
+  %p Our DHH who art in Spain,
+  %p Hallowed be thy name.
+  %p Thy framework come.
+  %p Thy will be done
+  %p on Rails as it is in #{link_to 'Basecamp', 'https://basecamp.com/'}.
+  %p Give us this day our daily code,
+  %p and forgive us our monkeypatches,
+  %p as we forgive those who flame us on twitter,
+  %p and lead us not into elixir,
+  %p but deliver us from phoenix.
+  %p For thine is the model,
+  %p and the view, and the controller,
+  %p for ever and ever
+  %p rails new
+  %p= link_to (fa_icon 'github'), 'https://github.com/kyleboe/rails-church'
