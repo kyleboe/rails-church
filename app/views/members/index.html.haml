@@ -1,6 +1,6 @@
 .faith Faith
 %p#notice= notice
-%h1 DHH's Prayer
+%h1 DHH's Prayer 🙏
 %p Our DHH who art in Spain,
 %p Hallowed be thy name.
 %p Thy framework come.
@@ -15,16 +15,6 @@
 %p and the view, and the controller,
 %p for ever and ever
 %p rails new
-%h1 Members
-%table
-  %thead
-    %tr
-      %th{:colspan => "3"}
-  %tbody
-    - @members.each do |member|
-      %tr
-        %td= link_to 'Show', member
-        %td= link_to 'Edit', edit_member_path(member)
-        %td= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' }
-%br/
-= link_to 'New Member', new_member_path
+.hashtags
+  .left-hashtag #OnlyDHHCanJudgeMe
+  .right-hashtag #Blest
