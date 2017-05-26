@@ -1,24 +1,14 @@
-# README
+# Rails Church ⛪
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby Version: `2.4.1`
 
-Things you may want to cover:
+Rails Version `5.1.1`
 
-* Ruby version
+### Maintaining/contributing to Rails Church.
 
-* System dependencies
+1. Say 5 "Hail DHH".
+2. Fork the repo.
+3. Commit your changes to your fork `git commit -am "DHH Bless this commit for it <does a thing>"`
+4. Send a [pull request](https://github.com/kyleboe/rails-church/pulls)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Please Note:** All commit messages must begin with "`DHH Bless this commit for it`"
