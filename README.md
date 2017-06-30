@@ -12,3 +12,7 @@ Rails Version `5.1.1`
 4. Send a [pull request](https://github.com/kyleboe/rails-church/pulls)
 
 **Please Note:** All commit messages must begin with "`DHH Bless this commit for it`"
+
+### Disclaimer
+
+This is 100% a joke. I made it with all the respect in the world for the talented developers who built the framework on which I currently work.
